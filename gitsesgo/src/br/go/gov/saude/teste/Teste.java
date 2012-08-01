@@ -1,6 +1,8 @@
 package br.go.gov.saude.teste;
 
 /**
+ * Classe de teste (Branch parte2).
+ * 
  * @author Rodrigo Freitas Melo
  *
  */
