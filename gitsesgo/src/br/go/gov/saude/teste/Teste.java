@@ -13,9 +13,6 @@ public class Teste {
 	String texto = "";
 	
 	public static void main(String[] args) {
-		//bug corrigido
-		//bug corrigido 3
-		//Funcionalidade adicionada
 		String txt = "!";
 		System.out.println("hello world" + txt);
 	}
