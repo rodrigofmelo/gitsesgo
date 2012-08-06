@@ -14,6 +14,7 @@ public class Teste {
 		//bug corrigido
 		//bug corrigido 3
 		//Funcionalidade adicionada
+		String texto = "!";
 		System.out.println("hello world");
 	}
 
