@@ -1,5 +1,7 @@
 package br.go.gov.saude.teste;
 
+import java.io.ObjectInputStream.GetField;
+
 /**
  * Classe de teste.
  * 
@@ -14,7 +16,8 @@ public class Teste {
 		//bug corrigido
 		//bug corrigido 3
 		//Funcionalidade adicionada
-		System.out.println("hello world");
+		String txt = "!";
+		System.out.println("hello world" + txt);
 	}
 
 	public String getTexto() {
