@@ -10,6 +10,7 @@ public class Teste {
 	public static void main(String[] args) {
 		//bug corrigido
 		//bug corrigido 3
+		//Funcionalidade adicionada
 		System.out.println("hello world");
 	}
 
