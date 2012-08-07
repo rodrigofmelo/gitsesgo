@@ -6,15 +6,19 @@ import java.io.ObjectInputStream.GetField;
  * Classe de teste.
  * 
  * @author Rodrigo Freitas Melo
- *
+ * 
  */
 public class Teste {
-	
-	String texto = "";
-	
+
+	String texto = "Hello World!";
+
+	private String processaTexto() {
+		return texto.toLowerCase();
+	}
+
 	public static void main(String[] args) {
-		String txt = "hello world!";
-		System.out.println(txt);
+		Teste teste = new Teste();
+		System.out.println(teste.processaTexto());
 	}
 
 	public String getTexto() {
