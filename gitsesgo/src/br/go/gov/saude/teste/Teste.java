@@ -13,8 +13,8 @@ public class Teste {
 	String texto = "";
 	
 	public static void main(String[] args) {
-		String txt = "!";
-		System.out.println("hello world" + txt);
+		String txt = "hello world!";
+		System.out.println(txt);
 	}
 
 	public String getTexto() {
