@@ -10,6 +10,7 @@ import java.io.ObjectInputStream.GetField;
  */
 public class Teste {
 
+	String teste = "";
 	String texto = "Hello World!";
 
 	private String processaTextoMinusculo() {
