@@ -10,7 +10,6 @@ import java.io.ObjectInputStream.GetField;
  */
 public class Teste {
 
-	String teste = "";
 	String texto = "Hello World!";
 
 	private String processaTexto() {
@@ -20,6 +19,7 @@ public class Teste {
 	public static void main(String[] args) {
 		Teste teste = new Teste();
 		System.out.println(teste.processaTexto());
+		System.out.println('ok');
 	}
 
 	public String getTexto() {
