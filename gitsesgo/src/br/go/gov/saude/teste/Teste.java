@@ -12,13 +12,17 @@ public class Teste {
 
 	String texto = "Hello World!";
 
-	private String processaTexto() {
+	private String processaTextoMinusculo() {
 		return texto.toLowerCase();
+	}
+
+	private String processaTextoMaiusculo() {
+		return texto.toUpperCase();
 	}
 
 	public static void main(String[] args) {
 		Teste teste = new Teste();
-		System.out.println(teste.processaTexto());
+		System.out.println(teste.processaTextoMaiusculo());
 	}
 
 	public String getTexto() {
