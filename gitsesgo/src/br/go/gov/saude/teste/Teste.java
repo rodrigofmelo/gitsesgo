@@ -23,7 +23,6 @@ public class Teste {
 
 	public static void main(String[] args) {
 		Teste teste = new Teste();
-		System.out.println(teste.processaTextoMinusculo());
 		System.out.println(teste.processaTextoMaiusculo());
 	}
 
